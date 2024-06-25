@@ -163,10 +163,11 @@ const myQuery = async (i,j) => {
 const executeQuery = async () => {
 for(let j = 0;j < measurements.length; j++){
 
+  //change the loop as necessary to get the runs you need
     for (let i = 1; i <= 4; i++) { //iterate over 5 runs
 
       if(i===3){
-
+        //skip the third run if needed since it has some outliers
       }
       else{
       await myQuery(i,j);
