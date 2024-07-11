@@ -12,6 +12,7 @@ const influxDB = new InfluxDB({ url, token });
 const queryApi = influxDB.getQueryApi(org);
 
 let data = []; // array to store the data
+//specify your measurements here
 let measurements = [
   'attachdetach_controller_forced_detaches', 'bootstrap_signer_rate_limiter_use', 'container_cpu_cfs_periods_total',
   'container_spec_cpu_period', 'container_spec_cpu_quota', 'container_spec_cpu_shares', 'machine_cpu_cores',
