@@ -1,0 +1,12 @@
+1- Log in to your influxdb
+2- Install node.js
+3- Make a JS file in Visual Studio code and copy the code in read.js.
+4- write this in Visual Studio code terminal: npm install --save @influxdata/influxdb-client
+5- run it from the terminal using: node yourfilename.js
+This is a video that explains these steps: https://youtu.be/QLexHZCa1hE?si=TtN6YIXrnFFcTqLf&t=159
+
+
+You can specify the measurements you want to include, by adding them to the measurements array (line 16)
+You can also specify the runs you need to extract the stats from by altering the for loop (line 168)
+
+
